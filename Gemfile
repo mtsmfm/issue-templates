@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0'
 
 gem 'coffee-rails'
+gem 'haml-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
 gem 'pg'

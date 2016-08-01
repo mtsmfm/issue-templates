@@ -1,0 +1,5 @@
+%h1= @issue_template.title
+%p= @issue_template.body
+%p= @issue_template.organization.slug
+%p= @issue_template.repository.slug
+%p= link_to 'Create Issue', new_issue_url_url(@issue_template)
